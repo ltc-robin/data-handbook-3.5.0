@@ -81,7 +81,7 @@
         "buttons": [
           {
             "user": "david-kiko",
-            "repo": "https://github.com/david-kiko/data-handbook-3.5.0", 
+            "repo": "data-handbook-3.5.0", 
             "type": "star",
             "count": true,
             "size": "small"
