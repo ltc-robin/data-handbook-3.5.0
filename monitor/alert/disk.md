@@ -222,3 +222,4 @@ Instead use the hdfs command for it.
 第四步：进一步查看各个目录下 /developers 、/admin 的数据，手动 rm -f 可删除的上传文件。
 
 第五步：如果第四步执行完了，磁盘使用仍然超过阈值，考虑扩容  /opt/linktimecloud。
+
