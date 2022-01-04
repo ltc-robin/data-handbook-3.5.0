@@ -1,0 +1,47 @@
+{
+    "author": "David Li <david@linktime.cloud>",
+    "description": "This is a sample book created by gitbook",
+    "extension": null,
+    "generator": "site",
+    "links": {
+        "sharing": {
+            "all": null,
+            "facebook": null,
+            "google": null,
+            "twitter": null,
+            "weibo": null
+        },
+        "sidebar": {
+            "BDOS": "https://www.linktimecloud.com/"
+        }
+    },
+    "output": null,
+    "pdf": {
+        "fontSize": 12,
+        "footerTemplate": null,
+        "headerTemplate": null,
+        "margin": {
+            "bottom": 36,
+            "left": 62,
+            "right": 62,
+            "top": 36
+        },
+        "pageNumbers": false,
+        "paperSize": "a4"
+    },
+    "plugins": [
+        "mygitalk"
+    ],
+    "pluginsConfig": {
+        "mygitalk": {
+            "clientID": "9c1ab16c4b1587ef0a5d",
+            "clientSecret": "ddc1d897a20109b66e197f172558fdae774f3f64",
+            "repo": "data-handbook-3.5.0",
+            "owner": "david-kiko",
+            "admin": ["david-kiko"],
+            "distractionFreeMode": false
+        }
+	},
+    "title": "Sample GitBook",
+    "variables": {}
+}
