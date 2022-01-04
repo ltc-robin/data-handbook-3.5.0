@@ -37,6 +37,7 @@
 * [服务安装](install/service/index.md)
 
 ## 监控类
-* [告警配置](monitor/alert/index.md)
+* [告警说明](monitor/alert/index.md)
+  * [磁盘报警](monitor/alert/disk.md)
 * [运维报告](monitor/report/index.md)
 

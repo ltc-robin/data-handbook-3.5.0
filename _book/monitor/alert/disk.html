@@ -1,0 +1,1005 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>磁盘报警 · Sample GitBook</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="David Li <david@linktime.cloud>">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="https://unpkg.com/gitalk/dist/gitalk.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-plus/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-back-to-top-button/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-pageview-count/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-theme-api/theme-api.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="../report/" />
+    
+    
+    <link rel="prev" href="./" />
+    
+
+    <style>
+    @media only screen and (max-width: 640px) {
+        .book-header .hidden-mobile {
+            display: none;
+        }
+    }
+    </style>
+    <script>
+        window["gitbook-plugin-github-buttons"] = {"buttons":[{"user":"david-kiko","repo":"data-handbook-3.5.0","type":"star","count":true,"size":"small"},{"user":"david-kiko","width":"160","type":"follow","count":true,"size":"small"}]};
+    </script>
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+    
+        
+        <li>
+            <a href="https://www.linktimecloud.com/" target="_blank" class="custom-link">BDOS</a>
+        </li>
+    
+    
+
+    
+    <li class="divider"></li>
+    
+
+    
+        
+        <li class="header">前言</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                        <b>1.1.</b>
+                    
+                    序言
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">架构类</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="../../architecture/architecture-logic.html">
+            
+                <a href="../../architecture/architecture-logic.html">
+            
+                    
+                        <b>2.1.</b>
+                    
+                    逻辑架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="../../architecture/architecture-pyhsical.html">
+            
+                <a href="../../architecture/architecture-pyhsical.html">
+            
+                    
+                        <b>2.2.</b>
+                    
+                    物理架构
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">操作类</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="../../action/common/">
+            
+                <a href="../../action/common/">
+            
+                    
+                        <b>3.1.</b>
+                    
+                    常见问题处理
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1" data-path="../../action/common/cloud/">
+            
+                <a href="../../action/common/cloud/">
+            
+                    
+                        <b>3.1.1.</b>
+                    
+                    云平台
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.1.1" data-path="../../action/common/cloud/disk.html">
+            
+                <a href="../../action/common/cloud/disk.html">
+            
+                    
+                        <b>3.1.1.1.</b>
+                    
+                    磁盘
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.1.2" data-path="../../action/common/cloud/network.html">
+            
+                <a href="../../action/common/cloud/network.html">
+            
+                    
+                        <b>3.1.1.2.</b>
+                    
+                    网络
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.1.3" data-path="../../action/common/cloud/load.html">
+            
+                <a href="../../action/common/cloud/load.html">
+            
+                    
+                        <b>3.1.1.3.</b>
+                    
+                    负载
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.1.4" data-path="../../action/common/cloud/bdos.html">
+            
+                <a href="../../action/common/cloud/bdos.html">
+            
+                    
+                        <b>3.1.1.4.</b>
+                    
+                    BDOS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.1.5" data-path="../../action/common/cloud/mesos.html">
+            
+                <a href="../../action/common/cloud/mesos.html">
+            
+                    
+                        <b>3.1.1.5.</b>
+                    
+                    MESOS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.1.6" data-path="../../action/common/cloud/k8s.html">
+            
+                <a href="../../action/common/cloud/k8s.html">
+            
+                    
+                        <b>3.1.1.6.</b>
+                    
+                    K8S
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.1.7" data-path="../../action/common/cloud/other.html">
+            
+                <a href="../../action/common/cloud/other.html">
+            
+                    
+                        <b>3.1.1.7.</b>
+                    
+                    其它
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2" data-path="../../action/common/bigdata/">
+            
+                <a href="../../action/common/bigdata/">
+            
+                    
+                        <b>3.1.2.</b>
+                    
+                    大数据平台
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="3.1.2.1" data-path="../../action/common/bigdata/kafka.html">
+            
+                <a href="../../action/common/bigdata/kafka.html">
+            
+                    
+                        <b>3.1.2.1.</b>
+                    
+                    kafka
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2.2" data-path="../../action/common/bigdata/zookeeper.html">
+            
+                <a href="../../action/common/bigdata/zookeeper.html">
+            
+                    
+                        <b>3.1.2.2.</b>
+                    
+                    zookeeper
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2.3" data-path="../../action/common/bigdata/hdfs.html">
+            
+                <a href="../../action/common/bigdata/hdfs.html">
+            
+                    
+                        <b>3.1.2.3.</b>
+                    
+                    hdfs
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2.4" data-path="../../action/common/bigdata/hive.html">
+            
+                <a href="../../action/common/bigdata/hive.html">
+            
+                    
+                        <b>3.1.2.4.</b>
+                    
+                    hive
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2.5" data-path="../../action/common/bigdata/spark.html">
+            
+                <a href="../../action/common/bigdata/spark.html">
+            
+                    
+                        <b>3.1.2.5.</b>
+                    
+                    spark
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.1.2.6" data-path="../../action/common/bigdata/ranger.html">
+            
+                <a href="../../action/common/bigdata/ranger.html">
+            
+                    
+                        <b>3.1.2.6.</b>
+                    
+                    ranger
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="../../action/runtime/">
+            
+                <a href="../../action/runtime/">
+            
+                    
+                        <b>3.2.</b>
+                    
+                    运行维护
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="../../action/emergency/">
+            
+                <a href="../../action/emergency/">
+            
+                    
+                        <b>3.3.</b>
+                    
+                    应急预案
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">支持类</li>
+        
+        
+    
+        <li class="chapter " data-level="4.1" data-path="../../install/system/">
+            
+                <a href="../../install/system/">
+            
+                    
+                        <b>4.1.</b>
+                    
+                    系统安装
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.1.1" data-path="../../install/system/os-install.html">
+            
+                <a href="../../install/system/os-install.html">
+            
+                    
+                        <b>4.1.1.</b>
+                    
+                    操作系统安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.1.2" data-path="../../install/system/bdos-install.html">
+            
+                <a href="../../install/system/bdos-install.html">
+            
+                    
+                        <b>4.1.2.</b>
+                    
+                    BDOS系统安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2" data-path="../../install/database/">
+            
+                <a href="../../install/database/">
+            
+                    
+                        <b>4.2.</b>
+                    
+                    数据库安装
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="4.2.1" data-path="../../install/database/mysql-install.html">
+            
+                <a href="../../install/database/mysql-install.html">
+            
+                    
+                        <b>4.2.1.</b>
+                    
+                    mysql
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="4.2.2" data-path="../../install/database/oracle-install.html">
+            
+                <a href="../../install/database/oracle-install.html">
+            
+                    
+                        <b>4.2.2.</b>
+                    
+                    oracle
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="4.3" data-path="../../install/service/">
+            
+                <a href="../../install/service/">
+            
+                    
+                        <b>4.3.</b>
+                    
+                    服务安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">监控类</li>
+        
+        
+    
+        <li class="chapter " data-level="5.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                        <b>5.1.</b>
+                    
+                    告警说明
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter active" data-level="5.1.1" data-path="disk.html">
+            
+                <a href="disk.html">
+            
+                    
+                        <b>5.1.1.</b>
+                    
+                    磁盘报警
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="5.2" data-path="../report/">
+            
+                <a href="../report/">
+            
+                    
+                        <b>5.2.</b>
+                    
+                    运维报告
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >磁盘报警</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div class="search-plus" id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <h1 id="511-&#x78C1;&#x76D8;&#x62A5;&#x8B66;&#x5904;&#x7406;">5.1.1. &#x78C1;&#x76D8;&#x62A5;&#x8B66;&#x5904;&#x7406;</h1>
+<h2 id="5111-&#x78C1;&#x76D8;&#x62A5;&#x8B66;&#x8BF4;&#x660E;">5.1.1.1 &#x78C1;&#x76D8;&#x62A5;&#x8B66;&#x8BF4;&#x660E;</h2>
+<h4 id="&#x62A5;&#x8B66;&#x8BF4;&#x660E;">&#x62A5;&#x8B66;&#x8BF4;&#x660E;</h4>
+<p>&#x7CFB;&#x7EDF;&#x6BCF;xx&#x65F6;&#x95F4;&#x5468;&#x671F;&#x6027;&#x68C0;&#x67E5;&#x78C1;&#x76D8;&#x4F7F;&#x7528;&#x7387;&#xFF0C;&#x5E76;&#x628A;&#x78C1;&#x76D8;&#x4F7F;&#x7528;&#x7387;&#x548C;&#x8BBE;&#x5B9A;&#x7684;&#x62A5;&#x8B66;&#x9608;&#x503C;&#xFF08;&#x9ED8;&#x8BA4;80%&#xFF09;&#x8FDB;&#x884C;&#x6BD4;&#x8F83;&#xFF0C;&#x5F53;&#x68C0;&#x6D4B;&#x5230;&#x78C1;&#x76D8;&#x4F7F;&#x7528;&#x7387;&#x8D85;&#x8FC7;&#x6216;&#x7B49;&#x4E8E;&#x9608;&#x503C;&#x65F6;&#x4EA7;&#x751F;&#x62A5;&#x8B66;&#x3002;</p>
+<h4 id="&#x62A5;&#x8B66;&#x4FE1;&#x606F;">&#x62A5;&#x8B66;&#x4FE1;&#x606F;</h4>
+<table>
+<thead>
+<tr>
+<th>&#x62A5;&#x8B66;&#x6807;&#x9898;</th>
+<th>&#x62A5;&#x8B66;&#x7EA7;&#x522B;</th>
+<th>&#x662F;&#x5426;&#x9700;&#x8981;&#x624B;&#x52A8;&#x5E72;&#x9884;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>HighDiskUsage</td>
+<td>&#x91CD;&#x8981;</td>
+<td>&#x662F;</td>
+</tr>
+</tbody>
+</table>
+<h4 id="&#x62A5;&#x8B66;&#x53C2;&#x6570;">&#x62A5;&#x8B66;&#x53C2;&#x6570;</h4>
+<table>
+<thead>
+<tr>
+<th>&#x53C2;&#x6570;&#x540D;&#x79F0;</th>
+<th>&#x53C2;&#x6570;&#x542B;&#x4E49;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>alertname</td>
+<td>&#x8B66;&#x544A;&#x540D;&#x79F0;</td>
+</tr>
+<tr>
+<td>instance</td>
+<td>&#x62A5;&#x8B66;&#x8282;&#x70B9;</td>
+</tr>
+<tr>
+<td>monitor</td>
+<td>&#x62A5;&#x8B66;&#x76D1;&#x63A7;</td>
+</tr>
+<tr>
+<td>mountpoint</td>
+<td>&#x78C1;&#x76D8;&#x62A5;&#x8B66;&#x5730;&#x5740;</td>
+</tr>
+<tr>
+<td>description</td>
+<td>&#x62A5;&#x8B66;&#x63CF;&#x8FF0;</td>
+</tr>
+<tr>
+<td>summary</td>
+<td>&#x62A5;&#x8B66;&#x603B;&#x7ED3;</td>
+</tr>
+</tbody>
+</table>
+<h4 id="&#x53EF;&#x80FD;&#x539F;&#x56E0;">&#x53EF;&#x80FD;&#x539F;&#x56E0;</h4>
+<ul>
+<li>&#x62A5;&#x8B66;&#x9608;&#x503C;&#x914D;&#x7F6E;&#x7684;&#x4E0D;&#x5408;&#x7406;&#x3002;&#xFF08;&#x9ED8;&#x8BA4;80%&#xFF09;</li>
+<li>&#x78C1;&#x76D8;&#x8D44;&#x6E90;&#x65E0;&#x6CD5;&#x6EE1;&#x8DB3;&#x5F53;&#x524D;&#x4E1A;&#x52A1;&#x6570;&#x636E;&#x91CF;&#xFF0C;&#x78C1;&#x76D8;&#x4F7F;&#x7528;&#x7387;&#x8FBE;&#x5230;&#x4E0A;&#x9650;&#xFF0C;&#x9700;&#x8981;&#x8003;&#x8651;&#x6269;&#x5C55;&#x78C1;&#x76D8;&#x3002;</li>
+<li>&#x77ED;&#x65F6;&#x95F4;&#x5185;&#x4EA7;&#x751F;&#x5927;&#x91CF;&#x65E5;&#x5FD7;&#xFF0C;&#x81EA;&#x52A8;&#x6E05;&#x7406;&#x673A;&#x5236;&#x65E0;&#x6CD5;&#x53CA;&#x65F6;&#x5904;&#x7406;&#xFF0C;&#x9700;&#x8981;&#x624B;&#x52A8;&#x6E05;&#x7406;&#x3002;</li>
+</ul>
+<h2 id="5112-&#x78C1;&#x76D8;&#x62A5;&#x8B66;&#x6848;&#x4F8B;">5.1.1.2 &#x78C1;&#x76D8;&#x62A5;&#x8B66;&#x6848;&#x4F8B;</h2>
+<h3 id="51121-varlibdocker-&#x78C1;&#x76D8;&#x62A5;&#x8B66;">5.1.1.2.1 /var/lib/docker &#x78C1;&#x76D8;&#x62A5;&#x8B66;</h3>
+<h4 id="&#x5BF9;&#x7CFB;&#x7EDF;&#x7684;&#x5F71;&#x54CD;">&#x5BF9;&#x7CFB;&#x7EDF;&#x7684;&#x5F71;&#x54CD;</h4>
+<p>&#x8BE5;&#x8282;&#x70B9;&#x4E0A;&#x7684;&#x5E94;&#x7528;&#x4E0D;&#x53EF;&#x66F4;&#x65B0;&#x548C;&#x65B0;&#x589E;&#x3002;</p>
+<h4 id="&#x68C0;&#x67E5;&#x6B65;&#x9AA4;">&#x68C0;&#x67E5;&#x6B65;&#x9AA4;</h4>
+<p>&#x7B2C;&#x4E00;&#x6B65;&#xFF1A;&#x68C0;&#x67E5; /var/lib/docker &#x7684;&#x6570;&#x636E;&#x4FDD;&#x5B58;&#x7B56;&#x7565;&#x662F;&#x5426;&#x6B63;&#x5E38;Work&#xFF0C;&#x9ED8;&#x8BA4;3&#x5929;&#x3002;</p>
+<h4 id="&#x64CD;&#x4F5C;&#x6B65;&#x9AA4;">&#x64CD;&#x4F5C;&#x6B65;&#x9AA4;</h4>
+<p>&#x7B2C;&#x4E00;&#x6B65;&#xFF1A;&#x4F7F;&#x7528;SSH&#x5DE5;&#x5177;&#xFF0C;&#x4EE5;<strong>root</strong>&#x7528;&#x6237;&#x767B;&#x5F55;&#x62A5;&#x8B66;&#x6240;&#x5728;&#x8282;&#x70B9;&#x3002;</p>
+<p>&#x7B2C;&#x4E8C;&#x6B65;&#xFF1A;&#x6267;&#x884C; df -h&#xFF0C;&#x67E5;&#x770B;&#x7CFB;&#x7EDF;&#x78C1;&#x76D8;&#x5206;&#x533A;&#x7684;&#x4F7F;&#x7528;&#x4FE1;&#x606F;&#x3002;</p>
+<p>&#x7B2C;&#x4E09;&#x6B65;&#xFF1A;&#x6267;&#x884C; docker system prune -f &#x6E05;&#x7406;&#x78C1;&#x76D8;&#x3002;</p>
+<pre class="language-"><code class="lang-sql"><span class="token punctuation">[</span>dcos<span class="token variable">@agent010</span> log<span class="token punctuation">]</span>$ docker system prune <span class="token operator">-</span>f
+</code></pre>
+<p>&#x7B2C;&#x56DB;&#x6B65;&#xFF1A;&#x5982;&#x679C;&#x7B2C;&#x4E09;&#x6B65;&#x6267;&#x884C;&#x5B8C;&#x4E86;&#xFF0C;&#x78C1;&#x76D8;&#x4F7F;&#x7528;&#x4ECD;&#x7136;&#x8D85;&#x8FC7;&#x9608;&#x503C;&#xFF0C;&#x6267;&#x884C;  docker system prune -a &#x3002;</p>
+<pre class="language-"><code class="lang-sql"><span class="token punctuation">[</span>dcos<span class="token variable">@agent010</span> log<span class="token punctuation">]</span>$ docker system prune <span class="token operator">-</span>a
+</code></pre>
+<p>&#x7B2C;&#x4E94;&#x6B65;&#xFF1A;&#x5982;&#x679C;&#x7B2C;&#x56DB;&#x6B65;&#x6267;&#x884C;&#x5B8C;&#x4E86;&#xFF0C;&#x78C1;&#x76D8;&#x4F7F;&#x7528;&#x4ECD;&#x7136;&#x8D85;&#x8FC7;&#x9608;&#x503C;&#xFF0C;&#x8003;&#x8651;&#x6269;&#x5BB9; /var/lib/docker&#x3002;</p>
+<h3 id="51122-varlog-&#x78C1;&#x76D8;&#x62A5;&#x8B66;">5.1.1.2.2 /var/log &#x78C1;&#x76D8;&#x62A5;&#x8B66;</h3>
+<h4 id="&#x5BF9;&#x7CFB;&#x7EDF;&#x7684;&#x5F71;&#x54CD;">&#x5BF9;&#x7CFB;&#x7EDF;&#x7684;&#x5F71;&#x54CD;</h4>
+<p>&#x8BE5;&#x8282;&#x70B9;&#x4E0A;&#x5E94;&#x7528;&#x4E0D;&#x53EF;&#x7528;&#xFF0C;&#x4E14;ETL&#x4F5C;&#x4E1A;&#x4E0D;&#x53EF;&#x8FD0;&#x884C;&#x3002;</p>
+<h4 id="&#x68C0;&#x67E5;&#x6B65;&#x9AA4;">&#x68C0;&#x67E5;&#x6B65;&#x9AA4;</h4>
+<p>&#x7B2C;&#x4E00;&#x6B65;&#xFF1A;&#x68C0;&#x67E5; /var/log &#x7684;&#x6570;&#x636E;&#x4FDD;&#x5B58;&#x7B56;&#x7565;&#x662F;&#x5426;&#x6B63;&#x5E38;Work&#xFF0C;&#x9ED8;&#x8BA4;3&#x5929;&#x3002;</p>
+<h4 id="&#x64CD;&#x4F5C;&#x6B65;&#x9AA4;">&#x64CD;&#x4F5C;&#x6B65;&#x9AA4;</h4>
+<p>&#x7B2C;&#x4E00;&#x6B65;&#xFF1A;&#x4F7F;&#x7528;SSH&#x5DE5;&#x5177;&#xFF0C;&#x4EE5;<strong>root</strong>&#x7528;&#x6237;&#x767B;&#x5F55;&#x62A5;&#x8B66;&#x6240;&#x5728;&#x8282;&#x70B9;&#x3002;</p>
+<p>&#x7B2C;&#x4E8C;&#x6B65;&#xFF1A;&#x6267;&#x884C; du -h --max-depth=1 /var/log&#xFF0C;&#x67E5;&#x770B;&#x7CFB;&#x7EDF;&#x78C1;&#x76D8;&#x5206;&#x533A;&#x7684;&#x4F7F;&#x7528;&#x4FE1;&#x606F;&#x3002;</p>
+<pre class="language-"><code class="lang-sql"><span class="token punctuation">[</span>dcos<span class="token variable">@agent010</span> log<span class="token punctuation">]</span>$ du <span class="token operator">-</span>h <span class="token comment">--max-depth=1 /var/log</span>
+<span class="token number">0</span>    <span class="token operator">/</span>var<span class="token operator">/</span>log<span class="token operator">/</span>chrony
+<span class="token number">4.0</span>K    <span class="token operator">/</span>var<span class="token operator">/</span>log<span class="token operator">/</span>tuned
+<span class="token number">6.0</span>G    <span class="token operator">/</span>var<span class="token operator">/</span>log<span class="token operator">/</span>glusterfs
+<span class="token number">629</span>M    <span class="token operator">/</span>var<span class="token operator">/</span>log<span class="token operator">/</span>mesos
+<span class="token number">8.0</span>K    <span class="token operator">/</span>var<span class="token operator">/</span>log<span class="token operator">/</span>rexray
+<span class="token number">0</span>    <span class="token operator">/</span>var<span class="token operator">/</span>log<span class="token operator">/</span>admin<span class="token operator">-</span>message<span class="token operator">-</span>board
+<span class="token number">0</span>    <span class="token operator">/</span>var<span class="token operator">/</span>log<span class="token operator">/</span>admin<span class="token operator">-</span>kerberos<span class="token operator">-</span>http
+<span class="token number">15</span>G    <span class="token operator">/</span>var<span class="token operator">/</span>log<span class="token operator">/</span>admin<span class="token operator">-</span>bdos<span class="token operator">-</span>core
+<span class="token number">8.0</span>K    <span class="token operator">/</span>var<span class="token operator">/</span>log<span class="token operator">/</span>admin<span class="token operator">-</span>ranger<span class="token operator">-</span>admin
+<span class="token number">36</span>M    <span class="token operator">/</span>var<span class="token operator">/</span>log<span class="token operator">/</span>kafka<span class="token operator">-</span><span class="token keyword">connect</span>
+<span class="token number">17</span>M    <span class="token operator">/</span>var<span class="token operator">/</span>log<span class="token operator">/</span>test<span class="token operator">-</span>linktime<span class="token operator">-</span>hs2<span class="token operator">-</span><span class="token keyword">group</span>
+<span class="token number">456</span>K    <span class="token operator">/</span>var<span class="token operator">/</span>log<span class="token operator">/</span>admin<span class="token operator">-</span>hue
+<span class="token number">1.3</span>G    <span class="token operator">/</span>var<span class="token operator">/</span>log<span class="token operator">/</span>admin<span class="token operator">-</span>linktime<span class="token operator">-</span>hs2<span class="token operator">-</span><span class="token keyword">group</span>
+<span class="token number">491</span>M    <span class="token operator">/</span>var<span class="token operator">/</span>log<span class="token operator">/</span>admin<span class="token operator">-</span>basic<span class="token operator">-</span>etl<span class="token operator">-</span>worker
+<span class="token number">0</span>    <span class="token operator">/</span>var<span class="token operator">/</span>log<span class="token operator">/</span>admin<span class="token operator">-</span>etl<span class="token operator">-</span>master
+</code></pre>
+<p>&#x7B2C;&#x4E09;&#x6B65;&#xFF1A;&#x624B;&#x52A8; rm -f &#x53EF;&#x5220;&#x9664;&#x7684;&#x5386;&#x53F2;&#x65E5;&#x5FD7;&#x6570;&#x636E;&#x3002;</p>
+<p>&#x7B2C;&#x56DB;&#x6B65;&#xFF1A;&#x5982;&#x679C;&#x7B2C;&#x4E09;&#x6B65;&#x6267;&#x884C;&#x5B8C;&#x4E86;&#xFF0C;&#x78C1;&#x76D8;&#x4F7F;&#x7528;&#x4ECD;&#x7136;&#x8D85;&#x8FC7;&#x9608;&#x503C;&#xFF0C;&#x8003;&#x8651;&#x6269;&#x5BB9;  /var/log&#x3002;</p>
+<h3 id="51123-usrlocalhadoop-&#x78C1;&#x76D8;&#x62A5;&#x8B66;">5.1.1.2.3 /usr/local/hadoop &#x78C1;&#x76D8;&#x62A5;&#x8B66;</h3>
+<h4 id="&#x5BF9;&#x7CFB;&#x7EDF;&#x7684;&#x5F71;&#x54CD;">&#x5BF9;&#x7CFB;&#x7EDF;&#x7684;&#x5F71;&#x54CD;</h4>
+<p>&#x8BE5;&#x8282;&#x70B9;&#x4E0A;NodeManager&#x4E0D;&#x53EF;&#x7528;&#xFF0C;&#x4F1A;&#x5F71;&#x54CD;ETL&#x8FD0;&#x884C;&#x3002;</p>
+<h4 id="&#x68C0;&#x67E5;&#x6B65;&#x9AA4;">&#x68C0;&#x67E5;&#x6B65;&#x9AA4;</h4>
+<p>&#x7B2C;&#x4E00;&#x6B65;&#xFF1A;&#x68C0;&#x67E5;Spark History Service&#x7684;&#x6570;&#x636E;&#x4FDD;&#x5B58;&#x7B56;&#x7565;&#x662F;&#x5426;&#x6B63;&#x5E38;Work&#xFF0C;&#x9ED8;&#x8BA4;3&#x5929;&#x3002;</p>
+<p>&#x7B2C;&#x4E8C;&#x6B65;&#xFF1A;&#x68C0;&#x67E5;Hadoop&#x4E0B;&#x7684; /tmp &#x76EE;&#x5F55;&#x7684;&#x6570;&#x636E;&#x4FDD;&#x5B58;&#x7B56;&#x7565;&#x662F;&#x5426;&#x6B63;&#x5E38;Work&#xFF0C;&#x9ED8;&#x8BA4;3&#x5929;&#x3002;</p>
+<p>&#x7B2C;&#x4E09;&#x6B65;&#xFF1A;&#x68C0;&#x67E5;Hive&#x8868;&#x7684;&#x4FDD;&#x5B58;&#x7B56;&#x7565;&#x662F;&#x5426;&#x6B63;&#x5E38;Work&#xFF0C;&#x6839;&#x636E;&#x6570;&#x636E;&#x7C7B;&#x578B;&#x81EA;&#x5B9A;&#x4E49;&#x3002;</p>
+<h4 id="&#x64CD;&#x4F5C;&#x6B65;&#x9AA4;">&#x64CD;&#x4F5C;&#x6B65;&#x9AA4;</h4>
+<p>&#x7B2C;&#x4E00;&#x6B65;&#xFF1A;&#x4F7F;&#x7528;SSH&#x5DE5;&#x5177;&#xFF0C;&#x4EE5;<strong>root</strong>&#x7528;&#x6237;&#x767B;&#x5F55;&#x62A5;&#x8B66;&#x6240;&#x5728;&#x8282;&#x70B9;&#x3002;</p>
+<p>&#x7B2C;&#x4E8C;&#x6B65;&#xFF1A;&#x6267;&#x884C; /etc/hadoop/bin/hadoop dfs -du -h /</p>
+<pre class="language-"><code class="lang-sql"><span class="token punctuation">[</span>dcos<span class="token variable">@agent001</span> <span class="token operator">~</span><span class="token punctuation">]</span>$ <span class="token operator">/</span>etc<span class="token operator">/</span>hadoop<span class="token operator">/</span>bin<span class="token operator">/</span>hadoop dfs <span class="token operator">-</span>du <span class="token operator">-</span>h <span class="token operator">/</span>
+DEPRECATED: <span class="token keyword">Use</span> <span class="token keyword">of</span> this script <span class="token keyword">to</span> <span class="token keyword">execute</span> hdfs command <span class="token operator">is</span> deprecated<span class="token punctuation">.</span>
+Instead <span class="token keyword">use</span> the hdfs command <span class="token keyword">for</span> it<span class="token punctuation">.</span>
+
+<span class="token number">0</span>        <span class="token operator">/</span>centre
+<span class="token number">49.9</span> G   <span class="token operator">/</span>historyservice
+<span class="token number">950.2</span> K  <span class="token operator">/</span>hive
+<span class="token number">0</span>        <span class="token operator">/</span>kafka
+<span class="token number">0</span>        <span class="token operator">/</span>kafka<span class="token operator">-</span>http<span class="token operator">-</span>gateway
+<span class="token number">58.5</span> K   <span class="token operator">/</span>kafka<span class="token operator">-</span>topic<span class="token operator">-</span>log
+<span class="token number">0</span>        <span class="token operator">/</span>sqoop
+<span class="token number">0</span>        <span class="token operator">/</span>system
+<span class="token number">0</span>        <span class="token operator">/</span>test
+<span class="token number">30.2</span> G   <span class="token operator">/</span>tmp
+<span class="token number">13.7</span> K   <span class="token operator">/</span>udf
+<span class="token number">0</span>        <span class="token operator">/</span>upload
+<span class="token number">306.3</span> G  <span class="token operator">/</span><span class="token keyword">user</span>
+</code></pre>
+<p>&#x7B2C;&#x4E09;&#x6B65;&#xFF1A;&#x8FDB;&#x4E00;&#x6B65;&#x67E5;&#x770B;&#x5404;&#x4E2A;&#x76EE;&#x5F55;&#x4E0B; /historyservice &#x3001;/tmp&#x3001;/user &#x7684;&#x6570;&#x636E;&#xFF0C;&#x624B;&#x52A8; rm -f &#x53EF;&#x5220;&#x9664;&#x7684;HDFS&#x6587;&#x4EF6;&#x3002;</p>
+<p>&#x7B2C;&#x56DB;&#x6B65;&#xFF1A;&#x5982;&#x679C;&#x7B2C;&#x4E09;&#x6B65;&#x6267;&#x884C;&#x5B8C;&#x4E86;&#xFF0C;&#x78C1;&#x76D8;&#x4F7F;&#x7528;&#x4ECD;&#x7136;&#x8D85;&#x8FC7;&#x9608;&#x503C;&#xFF0C;&#x8003;&#x8651;&#x6269;&#x5BB9;  /usr/local/hadoop&#x3002;</p>
+<h3 id="51124-optlinktimecloud-&#x78C1;&#x76D8;&#x62A5;&#x8B66;">5.1.1.2.4 /opt/linktimecloud &#x78C1;&#x76D8;&#x62A5;&#x8B66;</h3>
+<h4 id="&#x5BF9;&#x7CFB;&#x7EDF;&#x7684;&#x5F71;&#x54CD;">&#x5BF9;&#x7CFB;&#x7EDF;&#x7684;&#x5F71;&#x54CD;</h4>
+<p>&#x5E94;&#x7528;&#x4E0D;&#x53EF;&#x7528;&#xFF0C;&#x4F1A;&#x5F71;&#x54CD;ETL&#x8FD0;&#x884C;&#x3002;</p>
+<h4 id="&#x68C0;&#x67E5;&#x6B65;&#x9AA4;">&#x68C0;&#x67E5;&#x6B65;&#x9AA4;</h4>
+<p>&#x7B2C;&#x4E00;&#x6B65;&#xFF1A;&#x68C0;&#x67E5; /opt/linktimecloud &#x4E2D;&#x81EA;&#x5B9A;&#x4E49;&#x5E94;&#x7528;&#x7684;&#x6570;&#x636E;&#x4FDD;&#x5B58;&#x7B56;&#x7565;&#x662F;&#x5426;&#x6B63;&#x5E38;Work&#xFF0C;&#x9ED8;&#x8BA4;3&#x5929;&#x3002;</p>
+<h4 id="&#x64CD;&#x4F5C;&#x6B65;&#x9AA4;">&#x64CD;&#x4F5C;&#x6B65;&#x9AA4;</h4>
+<p>&#x7B2C;&#x4E00;&#x6B65;&#xFF1A;&#x4F7F;&#x7528;SSH&#x5DE5;&#x5177;&#xFF0C;&#x4EE5;<strong>root</strong>&#x7528;&#x6237;&#x767B;&#x5F55;&#x62A5;&#x8B66;&#x6240;&#x5728;&#x8282;&#x70B9;&#x3002;</p>
+<p>&#x7B2C;&#x4E8C;&#x6B65;&#xFF1A;&#x6267;&#x884C; du -h --max-depth=1 /opt/linktimecloud</p>
+<pre class="language-"><code>[dcos@agent001 ~]$ du -h --max-depth=1 /opt/linktimecloud
+180G    /opt/linktimecloud/bdos
+185M    /opt/linktimecloud/linktime-mysql
+42K    /opt/linktimecloud/kerberos
+8.0K    /opt/linktimecloud/postgresql
+37K    /opt/linktimecloud/prometheus
+18M    /opt/linktimecloud/grafana
+23K    /opt/linktimecloud/alertmanager
+76K    /opt/linktimecloud/hue
+247M    /opt/linktimecloud/labeling
+81M    /opt/linktimecloud/zk_backup
+4.0K    /opt/linktimecloud/hadoop
+4.6M    /opt/linktimecloud/data-science
+4.0K    /opt/linktimecloud/.trashcan
+180G    /opt/linktimecloud
+</code></pre><p>&#x7B2C;&#x4E09;&#x6B65;&#xFF1A;&#x6267;&#x884C; du -h --max-depth=1 /opt/linktimecloud/bdos/web/upload</p>
+<pre class="language-"><code>[dcos@agent001 upload]$ du -h --max-depth=1 /opt/linktimecloud/bdos/web/upload
+24K    /opt/linktimecloud/bdos/web/upload/public
+9.7G    /opt/linktimecloud/bdos/web/upload/developers
+59M    /opt/linktimecloud/bdos/web/upload/admin
+1.3G    /opt/linktimecloud/bdos/web/upload/backup-admin
+11G    /opt/linktimecloud/bdos/web/upload
+</code></pre><p>&#x7B2C;&#x56DB;&#x6B65;&#xFF1A;&#x8FDB;&#x4E00;&#x6B65;&#x67E5;&#x770B;&#x5404;&#x4E2A;&#x76EE;&#x5F55;&#x4E0B; /developers &#x3001;/admin &#x7684;&#x6570;&#x636E;&#xFF0C;&#x624B;&#x52A8; rm -f &#x53EF;&#x5220;&#x9664;&#x7684;&#x4E0A;&#x4F20;&#x6587;&#x4EF6;&#x3002;</p>
+<p>&#x7B2C;&#x4E94;&#x6B65;&#xFF1A;&#x5982;&#x679C;&#x7B2C;&#x56DB;&#x6B65;&#x6267;&#x884C;&#x5B8C;&#x4E86;&#xFF0C;&#x78C1;&#x76D8;&#x4F7F;&#x7528;&#x4ECD;&#x7136;&#x8D85;&#x8FC7;&#x9608;&#x503C;&#xFF0C;&#x8003;&#x8651;&#x6269;&#x5BB9;  /opt/linktimecloud&#x3002;</p>
+<div id="gitalk-container"></div> 
+
+<footer class="page-footer"><span class="copyright">&#xA9; david all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2022-01-04 16:46:38
+</span></footer>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"磁盘报警","level":"5.1.1","depth":2,"next":{"title":"运维报告","level":"5.2","depth":1,"path":"monitor/report/index.md","ref":"monitor/report/index.md","articles":[]},"previous":{"title":"告警说明","level":"5.1","depth":1,"path":"monitor/alert/index.md","ref":"monitor/alert/index.md","articles":[{"title":"磁盘报警","level":"5.1.1","depth":2,"path":"monitor/alert/disk.md","ref":"monitor/alert/disk.md","articles":[]}]},"dir":"ltr"},"config":{"plugins":["mygitalk","tbfed-pagefooter","github","-lunr","-search","search-plus","theme-comscore","theme-api","expandable-chapters","splitter","back-to-top-button","edit-link","prism","-highlight","copy-code-button","-sharing","github-buttons","pageview-count","livereload"],"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"&copy david","modify_label":"文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{},"github":{"url":"https://github.com/david-kiko/data-handbook-3.5.0"},"livereload":{},"splitter":{},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-comscore":{},"theme-api":{"languages":[],"split":true,"theme":"dark"},"back-to-top-button":{},"pageview-count":{},"github-buttons":{"buttons":[{"user":"david-kiko","repo":"data-handbook-3.5.0","type":"star","count":true,"size":"small"},{"user":"david-kiko","width":"160","type":"follow","count":true,"size":"small"}]},"copy-code-button":{},"mygitalk":{"flipMoveOptions":{},"clientID":"9c1ab16c4b1587ef0a5d","number":-1,"perPage":10,"proxy":"https://shielded-brushlands-08810.herokuapp.com/https://github.com/login/oauth/access_token","admin":["david-kiko"],"createIssueManually":false,"distractionFreeMode":false,"repo":"data-handbook-3.5.0","owner":"david-kiko","enableHotKey":true,"clientSecret":"ddc1d897a20109b66e197f172558fdae774f3f64","pagerDirection":"last","labels":["Gitalk"]},"edit-link":{"label":"编辑此页面","base":"https://github.com/david-kiko/data-handbook-3.5.0/edit/main"},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":true},"expandable-chapters":{},"search-plus":{}},"theme":"default","author":"David Li <david@linktime.cloud>","pdf":{"pageBreaksBefore":"/","headerTemplate":null,"paperSize":"a4","margin":{"right":62,"left":62,"top":36,"bottom":36},"fontSize":12,"fontFamily":"Arial","footerTemplate":null,"chapterMark":"pagebreak","pageNumbers":false},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"Sample GitBook","links":{"sharing":{"all":null,"facebook":null,"google":null,"twitter":null,"weibo":null},"sidebar":{"BDOS":"https://www.linktimecloud.com/"}},"gitbook":"*","description":"This is a sample book created by gitbook","extension":null},"file":{"path":"monitor/alert/disk.md","mtime":"2022-01-04T08:46:38.249Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-01-04T08:47:08.479Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="https://cdn.bootcss.com/blueimp-md5/2.12.0/js/md5.min.js"></script>
+        
+    
+        
+        <script src="https://unpkg.com/gitalk/dist/gitalk.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-mygitalk/mygitalk.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-plus/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-plus/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-back-to-top-button/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-edit-link/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-copy-code-button/toggle.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-github-buttons/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-pageview-count/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-theme-api/theme-api.js"></script>
+        
+    
+
+    </body>
+</html>
+
