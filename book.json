@@ -30,7 +30,25 @@
         "paperSize": "a4"
     },
     "plugins": [
-        "mygitalk"
+        "mygitalk",
+        "tbfed-pagefooter",
+        "github",
+        "-lunr", 
+        "-search", 
+        "search-plus",
+        "theme-comscore",
+        "theme-api",
+        "expandable-chapters",
+        "chapter-fold",
+        "splitter",
+        "back-to-top-button",
+        "edit-link",
+        "prism",
+        "-highlight",
+        "copy-code-button",
+        "-sharing",
+        "github-buttons",
+        "pageview-count"
     ],
     "pluginsConfig": {
         "mygitalk": {
@@ -40,6 +58,42 @@
             "owner": "david-kiko",
             "admin": ["david-kiko"],
             "distractionFreeMode": false
+        },
+        "tbfed-pagefooter": {
+            "copyright":"&copy david",
+            "modify_label": "文件修订时间：",
+            "modify_format": "YYYY-MM-DD HH:mm:ss"
+        },
+        "github": {
+            "url": "https://github.com/david-kiko/data-handbook-3.5.0"
+        },
+        "theme-default": {
+            "showLevel": true
+        },
+        "theme-api": {
+            "theme": "dark"
+        },
+        "edit-link": {
+            "base": "https://github.com/david-kiko/data-handbook-3.5.0/edit/main",
+            "label": "编辑此页面"
+       },
+       "github-buttons": {
+        "buttons": [
+          {
+            "user": "david-kiko",
+            "repo": "https://github.com/david-kiko/data-handbook-3.5.0", 
+            "type": "star",
+            "count": true,
+            "size": "small"
+          }, 
+          {
+            "user": "david-kiko",
+            "width": "160", 
+            "type": "follow", 
+            "count": true,
+            "size": "small"
+          }
+        ]
         }
 	},
     "title": "Sample GitBook",
